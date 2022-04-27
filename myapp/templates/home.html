@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.button {
+  background-color: #87cefa; /* Green */
+  border: none;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+
+.button5 {font-size: 34px;}
+
+
+.project_name {
+  text-shadow: 2px 2px #FF0000;
+  font-size:50px;
+}
+.my_name {
+  text-shadow: 2px 2px #FF0000;
+  font-size:50px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+ <div class="container">
+ <img src="../static/san.png" alt="Paris" style="width:100%">
+ <center>
+<div class="centered"><button class="button button5"><a href="{% url 'speech_to_text' %}">Speech To Text</a> </button></div>
+
+
+ </center>
+
+   </div>
+
+</body>
+
+
+
+
+
+
+
+</html>
